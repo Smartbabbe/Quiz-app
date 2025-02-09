@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    box-sizing: border-box;   
+    
+}    
+    
+body {
+    background-color: indigo;
+    
+}
+
+
+/* Positioning the start button */
+.start-btn, .info-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Styling the start button */
+.start-btn button {
+   font-size: 25px;
+   font-weight: 500;
+   color: indigo;
+   border: none;
+   outline: none;
+   padding: 1rem 2rem;
+   border-radius: 7px;
+   cursor: pointer;
+}
+
+.info-box {
+    width: 540px;
+    border-radius: 4px;
+    background-color: #fff;
+    /* padding: 1rem; */
+
+}
+
+.info-box .info-title {
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    padding: 0 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.info-box .info-list {
+    padding: 15px 35px;
+
+}
+
+.info-box .info-list .info {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+.info-box .info-list .info span {
+    font-weight: 500;
+
+}
